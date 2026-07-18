@@ -1,0 +1,457 @@
+{
+    "schema_version": [
+        1,
+        0,
+        0
+    ],
+    "presets": {
+        "system.default": {
+            "id": "system.default",
+            "name": "Default",
+            "is_terrain": false,
+            "schema_version": [
+                1,
+                0,
+                0
+            ],
+            "distribution": [
+                {
+                    "name": "Distribute On Faces",
+                    "id": "system.distribute_on_faces.default",
+                    "effect_id": "system.distribute_on_faces",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                }
+            ],
+            "scale": [
+                {
+                    "name": "Randomize Scale",
+                    "id": "system.scale_randomize.default",
+                    "effect_id": "system.randomize",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                },
+                {
+                    "name": "Scale",
+                    "id": "system.scale.default",
+                    "effect_id": "system.scale",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                }
+            ],
+            "rotation": [
+                {
+                    "name": "Align To Normal",
+                    "id": "system.align_to_normal.default",
+                    "effect_id": "system.align_to_normal",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                },
+                {
+                    "name": "Rotate",
+                    "id": "system.rotate.default",
+                    "effect_id": "system.rotate",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                },
+                {
+                    "name": "Randomize rotation",
+                    "id": "system.randomize_rotation.default",
+                    "effect_id": "system.randomize_rotation",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                }
+            ],
+            "geometry": [
+                {
+                    "name": "Instance Collection",
+                    "id": "system.instance_collection.default",
+                    "effect_id": "system.instance_collection",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "params": null,
+                    "layer_params": null,
+                    "nodes": null
+                }
+            ]
+        },
+        "system.weight_paint": {
+            "id": "system.weight_paint",
+            "name": "Weight Paint",
+            "is_terrain": false,
+            "schema_version": [
+                1,
+                0,
+                0
+            ],
+            "distribution": [
+                {
+                    "name": "Distribute On Faces",
+                    "effect_id": "system.distribute_on_faces",
+                    "effect_version": [
+                        2,
+                        1,
+                        0
+                    ],
+                    "params": {
+                        "2": 0.0,
+                        "3": 1.0,
+                        "4": 100,
+                        "5": 73
+                    },
+                    "layer_params": null,
+                    "nodes": {},
+                    "dropdowns": {}
+                },
+                {
+                    "name": "Weight Mask",
+                    "effect_id": "system.weight_mask",
+                    "effect_version": [
+                        2,
+                        0,
+                        0
+                    ],
+                    "params": {
+                        "2": ""
+                    },
+                    "layer_params": {
+                        "blendmode": "MULTIPLY",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {},
+                    "dropdowns": {}
+                }
+            ],
+            "scale": [
+                {
+                    "name": "Randomize Scale.003",
+                    "effect_id": "system.randomize",
+                    "effect_version": [
+                        1,
+                        1,
+                        0
+                    ],
+                    "params": {
+                        "1": 0
+                    },
+                    "layer_params": {
+                        "blendmode": "MULTIPLY",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {},
+                    "dropdowns": {}
+                },
+                {
+                    "name": "Scale",
+                    "effect_id": "system.scale",
+                    "effect_version": [
+                        1,
+                        1,
+                        0
+                    ],
+                    "params": {
+                        "1": 1.0,
+                        "2": [
+                            1.0,
+                            1.0,
+                            1.0
+                        ]
+                    },
+                    "layer_params": {
+                        "blendmode": "MULTIPLY",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {},
+                    "dropdowns": {}
+                }
+            ],
+            "rotation": [
+                {
+                    "name": "Align To Normal",
+                    "effect_id": "system.align_to_normal",
+                    "effect_version": [
+                        2,
+                        0,
+                        0
+                    ],
+                    "params": {},
+                    "layer_params": {
+                        "blendmode": "MIX",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {},
+                    "dropdowns": {}
+                },
+                {
+                    "name": "Rotate",
+                    "effect_id": "system.rotate",
+                    "effect_version": [
+                        1,
+                        1,
+                        0
+                    ],
+                    "params": {
+                        "1": true,
+                        "2": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    },
+                    "layer_params": {
+                        "blendmode": "MIX",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {},
+                    "dropdowns": {}
+                },
+                {
+                    "name": "Randomize rotation",
+                    "effect_id": "system.randomize_rotation",
+                    "effect_version": [
+                        1,
+                        2,
+                        0
+                    ],
+                    "params": {
+                        "1": true,
+                        "2": [
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "3": 0,
+                        "4": false
+                    },
+                    "layer_params": {
+                        "blendmode": "MIX",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {},
+                    "dropdowns": {}
+                }
+            ],
+            "geometry": [
+                {
+                    "name": "Instance Collection",
+                    "effect_id": "system.instance_collection",
+                    "effect_version": [
+                        1,
+                        1,
+                        0
+                    ],
+                    "params": {
+                        "1": {
+                            "type": "COLLECTION",
+                            "name": "Cube.001",
+                            "is_gscatter_asset": false
+                        },
+                        "2": true,
+                        "3": true
+                    },
+                    "layer_params": null,
+                    "nodes": {},
+                    "dropdowns": {}
+                }
+            ]
+        },
+        "system.simple_terrain_generator": {
+            "id": "system.simple_terrain_generator",
+            "name": "Simple Terrain Generator",
+            "is_terrain": true,
+            "schema_version": [
+                1,
+                0,
+                0
+            ],
+            "distribution": [],
+            "scale": [],
+            "rotation": [],
+            "geometry": [
+                {
+                    "name": "Terrain Generator",
+                    "effect_id": "e623fc66b5c243f189bc6276e80f0fe7",
+                    "effect_version": [
+                        1,
+                        0,
+                        0
+                    ],
+                    "effect_instance_id": "aa9e37d3-2a38-430b-94a9-7b2a2812c38f",
+                    "params": {
+                        "2": 5,
+                        "3": 0.0,
+                        "4": {
+                            "type": "MATERIAL",
+                            "name": "Forest_Ground"
+                        }
+                    },
+                    "layer_params": {
+                        "blendmode": "MIX",
+                        "influence": 100,
+                        "invert": false
+                    },
+                    "nodes": {
+                        "RGB Curves": {
+                            "curve_rgb": [
+                                [
+                                    [
+                                        [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "AUTO"
+                                    ],
+                                    [
+                                        [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "AUTO"
+                                    ]
+                                ],
+                                [
+                                    [
+                                        [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "AUTO"
+                                    ],
+                                    [
+                                        [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "AUTO"
+                                    ]
+                                ],
+                                [
+                                    [
+                                        [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "AUTO"
+                                    ],
+                                    [
+                                        [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "AUTO"
+                                    ]
+                                ],
+                                [
+                                    [
+                                        [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "AUTO"
+                                    ],
+                                    [
+                                        [
+                                            1.0,
+                                            1.0
+                                        ],
+                                        "AUTO"
+                                    ]
+                                ]
+                            ],
+                            "props": {},
+                            "params": {
+                                "0": 3.3636364936828613
+                            }
+                        },
+                        "Noise Texture": {
+                            "props": {
+                                "noise_dimensions": "4D"
+                            },
+                            "params": {
+                                "0": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "1": 0.0,
+                                "2": 0.800000011920929,
+                                "3": 2.0,
+                                "4": 0.5,
+                                "5": 0.7999999523162842
+                            }
+                        },
+                        "Wave Texture": {
+                            "props": {
+                                "wave_type": "BANDS",
+                                "bands_direction": "X",
+                                "rings_direction": "Y",
+                                "wave_profile": "TRI"
+                            },
+                            "params": {
+                                "0": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "1": 0.07999999821186066,
+                                "2": 5.769999980926514,
+                                "3": 2.0,
+                                "4": 4.699999809265137,
+                                "5": 0.5,
+                                "6": 0.0
+                            }
+                        }
+                    },
+                    "dropdowns": {
+                        "Texture": "Output_0"
+                    }
+                }
+            ]
+        }
+    }
+}

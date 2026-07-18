@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GScatter Add-on</title>
+
+    <style>
+      body {
+        background-color: #171717;
+        color: #9ea1a3;
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        font-weight: 600;
+        max-width: 1260px;
+        margin: 80px auto;
+        padding: 40px;
+      }
+
+      p {
+        margin: 0px 0px 10px;
+      }
+
+      ol,
+      ul {
+        margin: 0px 0px 10px;
+        padding: 0px 0px 0px 40px;
+      }
+
+      li {
+        padding: 0px 0px 5px;
+      }
+
+      h2 {
+        color: white;
+        font-size: 72px;
+        line-height: 1em;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin: 0px 0px 0px;
+      }
+
+      h3 {
+        color: white;
+        font-size: 30px;
+        line-height: 1.3em;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        margin: 28px 0px 0px;
+        border-top: 1px solid #3b3b3b;
+        padding: 28px 0px;
+      }
+
+      h3:first-of-type {
+        margin: 0px;
+        border-top: none;
+      }
+
+      a {
+        color: #00d855;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="display: flex; align-items: center">
+      <a
+        style="margin-right: 28px; min-width: fit-content"
+        href="https://www.gscatter.com"
+      >
+        <img
+          style="width: 150px"
+          src="data:image/png;base64,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"
+          alt="Graswald Logo"
+        />
+      </a>
+      <h2>GScatter Add-on</h2>
+    </div>
+    <h3>About</h3>
+    <p>
+      GScatter is a free scattering add-on build on Blender's geometry nodes. It
+      allows you to scatter any object on a surface and control the look of it
+      by changing the density, scale, rotation and much more. You can use it to
+      quickly create natural environments like meadows or forests.
+    </p>
+
+    <h3>Installation</h3>
+    <p>Don't unzip this archive. To install GScatter, follow these steps:</p>
+    <ol>
+      <li>Open Blender.</li>
+      <li>In the top bar, open the Edit menu.</li>
+      <li>From there, open the Preferences window.</li>
+      <li>
+        On the left side of the Preferences window, choose the "Add-Ons" or
+        "Extensions" tab.
+      </li>
+      <li>
+        In the top right of the Preferences window, click the Install button.
+      </li>
+      <li>Or click the dropdown arrow and click "Install from File"</li>
+      <li>Browse to the GScatter zip file you downloaded.</li>
+      <li>In the bottom right of the file browser, click Install add-on.</li>
+      <li>You should now see GScatter in the list of add-ons.</li>
+      <li>
+        Tick the box to the left of the add-on name to enable it if it isn't
+        already.
+      </li>
+      <li>Expand the panel to set the Preferences of the add-on.</li>
+    </ol>
+
+    <h3>More Info</h3>
+    <p>
+      Learn more about us on our
+      <a href="https://www.graswald3d.com">website</a>. Come and visit our
+      <a
+        href="https://graswald.notion.site/Help-Support-Documentation-8822cee19a4944beb30bc6f80c6c699a"
+        >support pages</a
+      >. We also have a
+      <a href="https://discord.com/invite/nsV9g55MGQ">discord server</a>.
+    </p>
+  </body>
+</html>

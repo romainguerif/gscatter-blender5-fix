@@ -1,0 +1,72 @@
+
+# Gscatter
+
+Copyright 2024 Graswald GmbH
+Gscatter is a tool for scattering in Blender by Blender Foundation.
+Gscatter is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See the GNU General Public License 3.0 for more details.
+
+***
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+The following copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+***
+
+The graswald logo and icons (`graswald.bip`) in `icons/`
+were created by Graswald GmbH. (http://gscatter.com/)
+Copyright 2024 Graswald GmbH. All Rights Reserved.
+
+The `tutorial_cover` art (`tutorial_cover.bip`) in `icons/tutorial_cover.bip`
+was created by Graswald GmbH. (http://gscatter.com/)
+Copyright 2024 Graswald GmbH. All Rights Reserved.
+
+- `custom_rotate` icon (`custom_rotate.bip`) in `icons/custom_rotate.bip`
+- `custom_wave` icon (`custom_wave.bip`) in `icons/custom_wave.bip`
+- `not_selected` icon (`not_selected.bip`) in `icons/not_selected.bip`
+- `selected` icon (`selected.bip`) in `icons/selected.bip`
+- `visibility_on` icon (`visibility_on.bip`) in `icons/visibility_on.bip`
+- `visibility_off` icon (`visibility_off.bip`) in `icons/visibility_off.bip`
+ -`whats_new` icon (`visibility_off.bip`) in `icons/visibility_off.bip`
+
+were created by Google Inc. Material Design Icons (http://fonts.google.com/)
+Copyright 2024 Google Inc. All Rights Reserved.
+
+The `custom_voronoi` icon (`custom_voronoi.bip`) in `icons/custom_voronoi.bip`
+was Voronoi Treemap by loading.io (http://loading.io/)
+Copyright 2024 loading.io. All Rights Reserved.
+
+The `search` icon (`search.bip`) in `icons/search.bip`
+was created by @colebemis (https://feathericons.com/)
+Copyright 2024 colebemis. All Rights Reserved.
+
+The `discord` icon (`discord.bip`) in `icons/discord.bip`
+was created by Discord Inc. (https://discord.com/branding)
+Copyright 2024 Discord Inc. All Rights Reserved.
+
+The `YouTube` icon (`youtube.bip`) in `icons/youtube.bip`
+was created by Google Ireland Limited. (https://www.youtube.com/howyoutubeworks/resources/brand-resources)
+Copyright 2024 Google Ireland Limited. All Rights Reserved.
+
+The `Twitter` icon (`twitter.bip`) in `icons/twitter.bip`
+was created by X Corp. (https://about.x.com/en/who-we-are/brand-toolkit)
+Copyright 2024 X Corp. All Rights Reserved.
+
+***
+
+The following software may be included in this product:
+
+- t3dn-bip 1.0.9 (https://pypi.org/project/t3dn-bip/) GNU General Public License v3 (GPLv3)
+- jsonschema 4.6.0 (https://pypi.org/project/jsonschema/) MIT License (MIT)
+- attrs 21.4.0 (https://pypi.org/project/attrs/) MIT License (MIT)
+- pyrsistent 0.18.1 (https://pypi.org/project/pyrsistent/) MIT License (MIT)
+- mixpanel 4.9.0 (https://pypi.org/project/mixpanel/) Apache Software License (Apache)
+- six 1.16.0 (https://pypi.org/project/six/) MIT License (MIT)
+- sentry-sdk 1.5.4 (https://pypi.org/project/sentry-sdk/) BSD License (MIT)
+- Pillow 9.5.0 (https://pypi.org/project/pillow/) Historical Permission Notice and Disclaimer (HPND)
+- urllib3 1.26.6 (https://pypi.org/project/urllib3/) MIT License (MIT)
+- requests 2.26.0 (https://pypi.org/project/requests/) Apache Software License (Apache-2.0)
+- charset-normalizer 2.0.3 (https://pypi.org/project/charset-normalizer/) MIT License (MIT)
+- idna 3.2 (https://pypi.org/project/idna/) BSD License (MIT)
+- certifi 2021.5.30 (https://pypi.org/project/certifi/) Mozilla Public License 2.0 (MPL 2.0)
